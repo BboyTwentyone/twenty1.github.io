@@ -241,11 +241,11 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #2a0800 0%, #C09891 100%);
 }
 
 .text-color {
-    color: #0f9d58 !important;
+    color: #775144 !important;
 }
 
 .white-color {
@@ -550,10 +550,10 @@ header .go-back i {
     height: 40vh !important;
 }
 
-.bg-cover:after {
+/* .bg-cover:after {
     -webkit-animation: rainbow 60s infinite;
     animation: rainbow 60s infinite;
-}
+} */
 
 .bg-cover:before,
 .bg-cover:after {
@@ -580,11 +580,12 @@ header .go-back i {
     position: relative;
 }
 
+/* quote color */
 .bg-cover .description {
     font-weight: 300;
-    font-size: 1.25rem;
+    font-size: 2rem;
     line-height: 1.4em;
-    color: #eee;
+    color: #f4dbd8;
 }
 
 .bg-cover .post-title {
